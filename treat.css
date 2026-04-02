@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+h1{
+    color: yellow;
+}
+.mar{
+    color: yellow;
+    border: solid green 3px;
+}

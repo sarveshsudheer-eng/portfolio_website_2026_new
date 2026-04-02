@@ -1,0 +1,43 @@
+body{
+  overflow-y:auto ;
+  background-color: rgb(121, 114, 114);
+}
+.gear{
+  padding-left: 45%;
+  padding-top: 18%;
+}
+
+.rotation{
+  animation: rotates;
+  animation-timeline:view() ;  
+}
+@keyframes rotates{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.hox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glow{
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7b7a7b, 0 0 40px #383a39, 0 0 50px #1a1b1a, 0 0 60px #031002, 0 0 70px #0f6625;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #f5f7f0, 0 0 40px #a1a1a1, 0 0 50px #373737, 0 0 60px #1c1c1c, 0 0 70px #000000, 0 0 80px #4dff91;
+  }
+}
+.per{
+  font-size: 20x;
+}

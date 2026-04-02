@@ -1,0 +1,117 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+
+body{
+    background-color: black;
+}
+
+.circle-menu{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:400px;
+height:400px;
+}
+
+.center{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:rgb(110, 39, 140);
+color:rgb(221, 187, 212);
+padding:20px;
+border-radius:50%;
+font-weight:bold;
+}
+
+.common{
+
+position:absolute;
+color:white;
+text-decoration:none;
+font: size 28px;
+}
+
+/* positions */
+
+.life{
+top:0;
+left:50%;
+transform:translateX(-50%);
+}
+
+.myself{
+left:0;
+top:50%;
+transform:translateY(-50%);
+}
+
+.career{
+right:0;
+top:50%;
+transform:translateY(-50%);
+}
+
+.projects{
+bottom:0;
+left:25%;
+}
+
+.academics{
+bottom:0;
+right:25%;
+}
+
+.glow{
+ font: size 70px;;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4500e6, 0 0 40px #4500e6, 0 0 50px #3600e6, 0 0 60px #8a00e6, 0 0 70px #6400e6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4dea, 0 0 40px #cd4dff, 0 0 50px #854dff, 0 0 60px #c74dff, 0 0 70px #a94dff, 0 0 80px #ff4da6;
+  }
+}
+.glowspell{
+ font: size 70px;;
+  color: #0d0c0c;
+  text-align: center;
+  animation: glowspell 1s ease-in-out infinite alternate;
+  
+}
+@-webkit-keyframes glowspell {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #87a3b4, 0 0 40px #506587, 0 0 50px #28424e, 0 0 60px #15232c, 0 0 70px #371a47;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #2e4075, 0 0 40px #362d5d, 0 0 50px #854dff, 0 0 60px #262050, 0 0 70px #213531, 0 0 80px #4c1832;
+  }
+}
+.allign{
+  padding-bottom: 10px;
+}

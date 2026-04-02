@@ -1,0 +1,76 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  opacity: 0.1;
+}
+
+#myVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+
+body{
+    background-color: rgb(1, 18, 2);
+    text-align: center;
+}
+
+.aca{
+    font-size:30px ;
+    color: rgb(12, 84, 12);
+    
+
+}
+.glow{
+ font: size 70px;;
+  color: #fff;
+   text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #25a332, 0 0 40px #0a5621, 0 0 50px #05300f, 0 0 60px #031002, 0 0 70px #0f6625;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #c7ff4d, 0 0 40px #9dff4d, 0 0 50px #4dff62, 0 0 60px #74ff4d, 0 0 70px #4dff62, 0 0 80px #4dff91;
+  }
+}
+.acord{
+    font-size:24px ;
+    color: rgb(99, 220, 99);
+}
+
+.pos{
+    position:absolute;
+    top:80px;
+    width: 100%;
+    text-align: center;
+}
+.posion{
+    position:absolute;
+    top:90px;
+    width: 100%;
+    text-align: left;
+}
+.pos1{
+    position:absolute;
+    width: 100%;
+    text-align: center;
+}
+.pos2{
+    position:absolute;
+    bottom:100px;
+    width: 100%;
+    text-align: center;
+}
+

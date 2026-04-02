@@ -1,0 +1,22 @@
+.luvi{
+  background-color: rgb(51, 8, 75);
+  float: left;
+}
+#box{
+    background-color: rgb(94, 19, 14);
+}
+
+.menuitem{
+    background-color: rgb(22, 118, 116);
+}
+.main{
+    background-color: rgb(137, 185, 227);
+    float: right;
+}
+#id{
+    color: rgb(141, 47, 141);
+    background-color: rgb(160, 110, 45);
+}
+@media only screen and (max-width: 600px){
+
+}
